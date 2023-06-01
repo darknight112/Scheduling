@@ -5,8 +5,8 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Scheduling {
-    @Scheduled(cron = " * */5 * * * *")
+    @Scheduled(cron = " * 0 * * * *")
     public void task(){
-        System.out.println("runs a job every five minutes.");
+        System.out.println("runs a job every hour.");
     }
 }

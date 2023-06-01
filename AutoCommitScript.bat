@@ -6,7 +6,7 @@ cd C:\Users\Lenovo\Desktop\Task-3  # Replace with the path to your repository
 git add .
 
 # Commit the changes
-git commit -m "make a calculation that can calculate the total amount of the created order" --allow-empty
+git commit -m "runs a job every hour" --allow-empty
 
 # Push the changes to GitHub
 git push
